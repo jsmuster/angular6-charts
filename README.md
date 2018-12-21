@@ -1,5 +1,7 @@
 # Stock Dashboard
 
+A step by step tutorial on how to create this widget https://medium.com/p/c78ef090a64b 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.2.
 
 ## Development server
