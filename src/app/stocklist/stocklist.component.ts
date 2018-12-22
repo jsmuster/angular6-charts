@@ -35,12 +35,12 @@ export class StocklistComponent implements OnInit
 	{
 		this.cdr.detach();
 
-		/* execute change interval */
+		/* execute change interval every so often as based on change configuration */
 		if(this.changeInterval > 0)
 		{
 			setInterval(() => {
 				this.update();
-				
+
 			}, this.changeInterval);
 		}
 	}
