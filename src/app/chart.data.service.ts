@@ -78,9 +78,9 @@ export class ChartDataService
   transformConfiguration(symbol, data)
   {
     let chartConfig = this.chartIntraDay(symbol, data);
-
+    
     return chartConfig;
-  }
+  };
 
   createStockQuery(tickerSymbol)
   {
